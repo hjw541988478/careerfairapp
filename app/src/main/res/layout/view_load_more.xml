@@ -1,18 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="50dp"
     android:padding="16dp">
-
-    <com.pnikosis.materialishprogress.ProgressWheel
-        android:layout_width="80dp"
-        android:layout_height="match_parent"
-        android:layout_centerVertical="true"
-        android:layout_gravity="center"
-        android:layout_marginLeft="30dp"
-        app:matProg_barColor="?attr/colorPrimary"
-        app:matProg_progressIndeterminate="true" />
 
     <TextView
         android:id="@+id/id_laoding_text"
@@ -21,6 +11,7 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:gravity="center_vertical|center_horizontal"
-        android:text="loading..." />
+        android:text="loading..."
+        android:textSize="16sp" />
 
 </RelativeLayout>

@@ -2,13 +2,11 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/id_menu_hu"
-            android:title="湖南大学" />
-        <item
             android:id="@+id/id_menu_csu"
             android:title="中南大学" />
         <item
-            android:id="@+id/id_menu_hut"
-            android:title="湖南工业大学" />
+            android:id="@+id/id_menu_hu"
+            android:title="湖南大学" />
+
     </group>
 </menu>
